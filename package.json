@@ -1,0 +1,15 @@
+{
+  "name": "piano-buddy-app",
+  "version": "1.0.0",
+  "author": "Gurchet Rai",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "start": "npm run start --workspace=server"
+  },
+  "workspaces": [
+    "client",
+    "server",
+    "contracts"
+  ]
+}
